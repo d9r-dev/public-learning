@@ -1,0 +1,5 @@
+- [Getting Started with Logseq]( https://hub.logseq.com/getting-started/uQdEHALJo7RWnDLLLP7uux/onboarding-learn-the-fundamentals-of-logseq-in-70-minutes/iPUPLPx7dZgPuASHtqNu2m/)
+- im Journal kann man täglich Notizen ablegen
+- mit "[[]]"  oder "#" kann man eine neue Seite anlegen
+- mit "/TODO" "/LATER" etc kann man tasks anlegen
+-
