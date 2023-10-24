@@ -1,2 +1,3 @@
 - Basic authentication strategy
-- login
+- username and password are send via header of request
+- [Basic Authentication Guide](https://roadmap.sh/guides/basic-authentication)
