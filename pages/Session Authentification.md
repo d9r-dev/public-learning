@@ -1,3 +1,4 @@
 - a stateful authentication method
 - user gets a uid assigned which is stored on the server
-- as long as the
+- as long as the user is having his uid he is authentificated
+-
