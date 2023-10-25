@@ -8,5 +8,6 @@
 - OpenID
 - [Token Authentication Guide](https://roadmap.sh/guides/token-authentication)
 - [https://roadmap.sh/guides/jwt-authentication](JWT Guide)
+- [Oauth Guide](https://roadmap.sh/guides/oauth)
 -
 -
