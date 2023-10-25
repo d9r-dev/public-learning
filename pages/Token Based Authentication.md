@@ -1,3 +1,7 @@
 - [[Authentication]]
 - Client sends credentials to generate a token
--
+- token is send by token in every request
+- SWT (Simple Web Tokens)
+- JWT (JSON Web Tokens)#
+- Oauth (Open Authorization)
+- SAML ()
