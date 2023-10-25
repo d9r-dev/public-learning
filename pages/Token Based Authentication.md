@@ -7,4 +7,6 @@
 - SAML (Security Assertions Markup Language)
 - OpenID
 - [Token Authentication Guide](https://roadmap.sh/guides/token-authentication)
+- [https://roadmap.sh/guides/jwt-authentication](JWT Guide)
+-
 -
