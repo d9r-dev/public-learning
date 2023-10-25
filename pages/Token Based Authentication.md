@@ -1,0 +1,3 @@
+- [[Authentication]]
+- Client sends credentials to generate a token
+-
