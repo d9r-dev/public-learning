@@ -4,4 +4,6 @@
 - SWT (Simple Web Tokens)
 - JWT (JSON Web Tokens)#
 - Oauth (Open Authorization)
-- SAML ()
+- SAML (Security Assertions Markup Language)
+- OpenID
+- [Token Authentication Guide](https://roadmap.sh/guides/token-authentication)
