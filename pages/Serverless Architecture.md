@@ -1,2 +1,3 @@
 - [[Software Architecture]]
-- application designs that incorporate Backend as a Service ()
+- application designs that incorporate Backend as a Service (BaaS) from third parties or run on Functions as a Service platforms (FaaS)
+-
