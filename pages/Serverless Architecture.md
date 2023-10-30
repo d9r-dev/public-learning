@@ -5,4 +5,6 @@
 - FaaS -> developer still writes backend code, but it is run on a ephemeral (may only last one invocation) event-triggered, stateless compute containers fully run by third party providers like AWS, Google or Microsoft
 - ![image.png](../assets/image_1698651574698_0.png)
 - emphasis on choreography over orchestration
-- more flexible and amenable to change, easier to upgrade,
+- more flexible and amenable to change, easier to upgrade, better division of concerns, cost benefits
+- requires better distributed monitoring, relieant on the security capabilities of the vendor
+-
