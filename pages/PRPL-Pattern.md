@@ -1,6 +1,9 @@
 - [Guide](https://web.dev/articles/apply-instant-loading-with-prpl)
 - **Preload** the late discovered ressources
 	- preload is a declarative fetch request that tells the browser to request a ressource that is otherwise not discoverable by the browser like images in background css code
+	- Preload late-discovered resources by adding a `<link>` tag with `rel="preload"` to the head of your HTML document
+	- Adding a `<link rel="preload">` directive will initiate a request for that resource and store it in the cache. The browser is then able to retrieve it when needed.
+	-
 - **Render** the initial route as soon as possible
 - **Pre-Cache** remaining assets
 - **Lazy load** other routes and none-critical assets
