@@ -1,6 +1,8 @@
 - [Guide](https://web.dev/articles/apply-instant-loading-with-prpl)
 - **Preload** the late discovered ressources
+	-
 - **Render** the initial route as soon as possible
 - **Pre-Cache** remaining assets
-- **Lazy load**
+- **Lazy load** other routes and none-critical assets
+-
 -
