@@ -1,0 +1,3 @@
+- [Guide](https://web.dev/articles/apply-instant-loading-with-prpl)
+- **Preload**
+-
