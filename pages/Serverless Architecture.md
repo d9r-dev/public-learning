@@ -4,4 +4,4 @@
 - in combination with Single-Page-Applications they remove the need for a always on server component
 - FaaS -> developer still writes backend code, but it is run on a ephemeral (may only last one invocation) event-triggered, stateless compute containers fully run by third party providers like AWS, Google or Microsoft
 - ![image.png](../assets/image_1698651574698_0.png)
--
+- emphasis on choreography over
