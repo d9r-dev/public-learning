@@ -1,3 +1,5 @@
 - [[Software Architecture]]
+- [Introduction](https://martinfowler.com/articles/serverless.html)
 - application designs that incorporate Backend as a Service (BaaS) from third parties or run on Functions as a Service platforms (FaaS)
 - in combination with Single-Page-Applications they remove the need for a always on server component
+-
