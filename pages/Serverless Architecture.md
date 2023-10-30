@@ -7,4 +7,6 @@
 - emphasis on choreography over orchestration
 - more flexible and amenable to change, easier to upgrade, better division of concerns, cost benefits
 - requires better distributed monitoring, relieant on the security capabilities of the vendor
-- FaaS have start up time and so called cold starts -> Server for the function has to be spun up.
+- FaaS have start up time and so called cold starts -> Server for the function has to be spun up, impact depends on kind of function
+- You have a limit on the run time of a function and they must be stateless
+- a API_
