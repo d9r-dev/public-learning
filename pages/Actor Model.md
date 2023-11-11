@@ -16,5 +16,14 @@
 	- an actor can contain adresses from messages he receives
 	- actor can have different adresses, adress != identity
 	- an actor can supervise other child actors he creates
-	- a supervisor can check if other actors are
+	- a supervisor can check if other actors are live and redirect messages
+	- leads to self healing systems
+- pros:
+	- easy to scale
+	- geographical distribution
+	- fault tolerance
+	- no shared state
+- cons:
+	- actors susceptible to deadlocks
+	- actors mailbox
 -
