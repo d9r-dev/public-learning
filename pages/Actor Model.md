@@ -12,5 +12,7 @@
 	- messages are send to actors and are handled in FIFO (First In First Out) order
 	- messages are simple, immutable data structures
 	- actors work asynchronously and have addresses
-	- an actor ha
+	- an actor holds the addresses of actors he himself created
+	- an actor can contain addresses from messages he receives
+	- actor can have different addresses, adress
 -
