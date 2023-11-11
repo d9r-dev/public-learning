@@ -5,5 +5,7 @@
 	- allowed operations of an actor are:
 		- Create another actor
 		- send a message
-		- de
+		- designate how to handle the next message
+	- holds his own private state
+	-
 -
