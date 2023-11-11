@@ -11,8 +11,10 @@
 	- state of the actor can only changed by messages
 	- messages are send to actors and are handled in FIFO (First In First Out) order
 	- messages are simple, immutable data structures
-	- actors work asynchronously and have addresses
+	- actors work asynchronously and have adresses
 	- an actor holds the addresses of actors he himself created
-	- an actor can contain addresses from messages he receives
-	- actor can have different addresses, adress
+	- an actor can contain adresses from messages he receives
+	- actor can have different adresses, adress != identity
+	- an actor can supervise other child actors he creates
+	- a supervisor can check if other actors are
 -
