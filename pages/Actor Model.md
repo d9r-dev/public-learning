@@ -25,5 +25,5 @@
 	- no shared state
 - cons:
 	- actors susceptible to deadlocks
-	- actors mailbox
--
+	- actors mailbox overflowing
+- Implementations: akka, Elixir, Erlang
