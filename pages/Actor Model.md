@@ -10,4 +10,7 @@
 	- actors are isolated by each other and dont share memory
 	- state of the actor can only changed by messages
 	- messages are send to actors and are handled in FIFO (First In First Out) order
+	- messages are simple, immutable data structures
+	- actors work asynchronously and have addresses
+	- an actor ha
 -
