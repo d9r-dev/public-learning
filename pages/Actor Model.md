@@ -1,4 +1,9 @@
 - [[Software Architecture]]
 - [[Design Patterns]]
-- Conceptual modelof concurrent
+- Conceptual model of concurrent computation from 1973
+- Actor is a fundamental unit of computation
+	- allowed operations of an actor are:
+		- Create another actor
+		- send a message
+		- de
 -
