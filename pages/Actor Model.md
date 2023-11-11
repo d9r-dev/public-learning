@@ -1,0 +1,4 @@
+- [[Software Architecture]]
+- [[Design Patterns]]
+- Conceptual modelof concurrent
+-
