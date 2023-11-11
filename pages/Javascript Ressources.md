@@ -1,3 +1,5 @@
 - [[Frontend Development]]
 - [[Javascript]]
-- https://www.javascripttutorial.net
+- [javascripttutorial.net](https://www.javascripttutorial.net)
+- [The Modern JavaScript Tutorial](https://javascript.info)
+- (/)
