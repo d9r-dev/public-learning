@@ -6,3 +6,4 @@
 	- Husky (manage git hooks per package.json) [Husky documentation](https://typicode.github.io/husky/)
 - Ressources:
 	- [awesome-git-hooks repository](https://github.com/aitemr/awesome-git-hooks)
+	- [Introdcution to Git Hooks](https://www.youtube.com/watch?v=8-JL6NOTZOw)
