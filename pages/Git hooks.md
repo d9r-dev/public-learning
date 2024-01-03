@@ -17,5 +17,13 @@
 		- This hook is invoked by [git-commit[1]](https://git-scm.com/docs/git-commit) and [git-merge[1]](https://git-scm.com/docs/git-merge), and can be bypassed with the `--no-verify` option. It takes a single parameter, the name of the file that holds the proposed commit log message. Exiting with a non-zero status causes the command to abort.
 	- post-commit
 		- This hook is invoked by [git-commit[1]](https://git-scm.com/docs/git-commit). It takes no parameters, and is invoked after a commit is made.
+	- pre-rebase
+		- This hook is called by [git-rebase[1]](https://git-scm.com/docs/git-rebase) and can be used to prevent a branch from getting rebased. The hook may be called with one or two parameters. The first parameter is the upstream from which the series was forked. The second parameter is the branch being rebased, and is not set when rebasing the current branch.
+	- post-checkout
+		- This hook is invoked when a [git-checkout[1]](https://git-scm.com/docs/git-checkout) or [git-switch[1]](https://git-scm.com/docs/git-switch) is run after having updated the worktree. The hook is given three parameters: the ref of the previous HEAD, the ref of the new HEAD (which may or may not have changed), and a flag indicating whether the checkout was a branch checkout (changing branches, flag=1) or a file checkout (retrieving a file from the index, flag=0). This hook cannot affect the outcome of `git switch` or `git checkout`, other than that the hook’s exit status becomes the exit status of these two commands.
+	- post-merge
+		- This hook is invoked by [git-merge[1]](https://git-scm.com/docs/git-merge), which happens when a `git pull` is done on a local repository. The hook takes a single parameter, a status flag specifying whether or not the merge being done was a squash merge. This hook cannot affect the outcome of `git merge` and is not executed, if the merge failed due to conflicts.
+	- pre-push
+		- This hook is called by [git-push[1]](https://git-scm.com/docs/git-push) and can be used to prevent a push from taking place. The hook is called with two parameters which provide the name and location of the destination remote, if a named remote is not being used both values will be the same.
 	-
 	-
