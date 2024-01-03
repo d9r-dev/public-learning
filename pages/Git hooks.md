@@ -1,3 +1,7 @@
 - official git hooks documentation [Link](https://git-scm.com/docs/githooks)
 - Hooks are programs you can place in a hooks directory to trigger actions at certain points in git’s execution. Hooks that don’t have the executable bit set are ignored.
--
+- git hooks are not part of the repository, that makes them a bit harder to maintain
+- Solutions:
+	- git-build-hook Maven Plugin [Github](https://github.com/rudikershaw/git-build-hook)
+- Ressources:
+	-
