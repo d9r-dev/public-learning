@@ -3,6 +3,6 @@
 - git hooks are not part of the repository, that makes them a bit harder to maintain
 - Solutions:
 	- git-build-hook Maven Plugin [Github](https://github.com/rudikershaw/git-build-hook)
-	- Husky (manage git hooks per package.json)
+	- Husky (manage git hooks per package.json) [Husky documentation](https://typicode.github.io/husky/)
 - Ressources:
 	- [awesome-git-hooks repository](https://github.com/aitemr/awesome-git-hooks)
