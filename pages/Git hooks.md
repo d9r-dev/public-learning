@@ -7,6 +7,8 @@
 - Practical Uses:
 - scripts must be executable
 	- on Linux for example `chmod +x pre-commit`
+- bypass hooks by `--no-verify`
+-
 - Ressources:
 	- [awesome-git-hooks repository](https://github.com/aitemr/awesome-git-hooks)
 	- [Introdcution to Git Hooks](https://www.youtube.com/watch?v=8-JL6NOTZOw)
