@@ -4,6 +4,8 @@
 - Solutions:
 	- git-build-hook Maven Plugin [Github](https://github.com/rudikershaw/git-build-hook)
 	- Husky (manage git hooks per package.json) [Husky documentation](https://typicode.github.io/husky/)
+- Practical Uses:
+	-
 - Ressources:
 	- [awesome-git-hooks repository](https://github.com/aitemr/awesome-git-hooks)
 	- [Introdcution to Git Hooks](https://www.youtube.com/watch?v=8-JL6NOTZOw)
