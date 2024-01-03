@@ -9,4 +9,13 @@
 		- This hook is invoked by [git-am[1]](https://git-scm.com/docs/git-am). It takes no parameter, and is invoked after the patch is applied and a commit is made.
 	- pre-commit
 		- This hook is invoked by [git-commit[1]](https://git-scm.com/docs/git-commit), and can be bypassed with the `--no-verify` option. It takes no parameters, and is invoked before obtaining the proposed commit log message and making a commit. Exiting with a non-zero status from this script causes the `git commit` command to abort before creating a commit.
-		-
+	- pre-merge-commit
+		- This hook is invoked by [git-merge[1]](https://git-scm.com/docs/git-merge), and can be bypassed with the `--no-verify` option. It takes no parameters, and is invoked after the merge has been carried out successfully and before obtaining the proposed commit log message to make a commit. Exiting with a non-zero status from this script causes the `git merge` command to abort before creating a commit.
+	- prepare-commit-msg
+		- This hook is invoked by [git-commit[1]](https://git-scm.com/docs/git-commit) right after preparing the default log message, and before the editor is started.
+	- commit-msg
+		- This hook is invoked by [git-commit[1]](https://git-scm.com/docs/git-commit) and [git-merge[1]](https://git-scm.com/docs/git-merge), and can be bypassed with the `--no-verify` option. It takes a single parameter, the name of the file that holds the proposed commit log message. Exiting with a non-zero status causes the command to abort.
+	- post-commit
+		- This hook is invoked by [git-commit[1]](https://git-scm.com/docs/git-commit). It takes no parameters, and is invoked after a commit is made.
+	-
+	-
