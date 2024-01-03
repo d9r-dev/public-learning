@@ -1,1 +1,5 @@
-- official git hooks documentation
+- official git hooks documentation [Link](https://git-scm.com/docs/githooks)
+- Hooks are programs you can place in a hooks directory to trigger actions at certain points in git’s execution. Hooks that don’t have the executable bit set are ignored.
+- List of git hooks
+	- applypatch-msg
+	-
