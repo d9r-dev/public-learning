@@ -2,4 +2,11 @@
 - Hooks are programs you can place in a hooks directory to trigger actions at certain points in git’s execution. Hooks that don’t have the executable bit set are ignored.
 - List of git hooks
 	- applypatch-msg
-	-
+		- This hook is invoked by [git-am[1]](https://git-scm.com/docs/git-am). It takes a single parameter, the name of the file that holds the proposed commit log message. Exiting with a non-zero status causes `git am` to abort before applying the patch.
+	- pre-applypatch
+		- This hook is invoked by [git-am[1]](https://git-scm.com/docs/git-am). It takes no parameter, and is invoked after the patch is applied, but before a commit is made.
+	- post-applypatch
+		- This hook is invoked by [git-am[1]](https://git-scm.com/docs/git-am). It takes no parameter, and is invoked after the patch is applied and a commit is made.
+	- pre-commit
+		- This hook is invoked by [git-commit[1]](https://git-scm.com/docs/git-commit), and can be bypassed with the `--no-verify` option. It takes no parameters, and is invoked before obtaining the proposed commit log message and making a commit. Exiting with a non-zero status from this script causes the `git commit` command to abort before creating a commit.
+		-
