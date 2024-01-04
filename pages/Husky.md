@@ -68,6 +68,6 @@
 		- goes to the directory of the package.json and runs the unit tests and linting scripts
 - ## Tipps
 	- If you use the GUI of Intellij to commit and push you can see the Errors in the notification panel or in the Git console
-	  ![image.png](../assets/image_1704370066082_0.png)
+	  ![image_1704370066081_0](../assets/image_1704370066081_0.png){:height 42, :width 96}
 	- ![image.png](../assets/image_1704370110493_0.png){:height 34, :width 95}
 	-
