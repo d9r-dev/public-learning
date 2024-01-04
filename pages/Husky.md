@@ -14,4 +14,5 @@
 		- the script will be run after npm install
 	- 4. add a hook with `npx husky add .husky/pre-commit "npm test"`
 		- you can also add a executable script in the .husky folder named after a git hook but you have to make shure that it is executable `chmod +x pre-commit`
-	-
+- ## useful scripts
+	- prepare-commit-msg check for Jira ID
