@@ -56,4 +56,12 @@
 		- checks if the branch name contains a Jira Id. If so it checks if the Jira Id of the branch name and the Jira Id of the commit message are the same
 		- if the branch name contains a jira Id and the commit message not it adds the Jira Id of the branch name to the commit message
 	- ### pre-push run unit tests and linters
-		-
+		- ```bash
+		  #!/usr/bin/env sh
+		  . "$(dirname -- "$0")/_/husky.sh"
+		  
+		  # runs frontend unit tests and linters
+		  cd ~/project/ && npm run test:prod && npm run lint:js && npm run lint:style
+		  
+		  ```
+		- goes to the directory of the package.json and runs the unit tests and linting scripts
