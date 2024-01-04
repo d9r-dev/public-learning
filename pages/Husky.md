@@ -53,4 +53,5 @@
 		    echo "JIRA ID '$JIRA_ID_IN_CURRENT_BRANCH_NAME', matched in current branch name, prepended to commit message. (Use --no-verify to skip)"
 		  fi
 		  ```
-		- checks if the branch name contains a Jira Id. If so it checks if the
+		- checks if the branch name contains a Jira Id. If so it checks if the Jira Id of the branch name and the Jira Id of the commit message are the same
+		- if the branch name contains a jira Id and
