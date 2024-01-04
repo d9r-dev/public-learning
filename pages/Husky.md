@@ -12,7 +12,7 @@
 		  }
 		  ```
 		- the script will be run after npm install
-		- if you don't want to autoinstall you
+		- if you don't want to autoinstall you can give it another name and just run the script when you need the hooks
 	- 4. add a hook with `npx husky add .husky/pre-commit "npm test"`
 		- you can also add a executable script in the .husky folder named after a git hook but you have to make shure that it is executable `chmod +x pre-commit`
 - ## useful scripts
