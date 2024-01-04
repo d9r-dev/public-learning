@@ -54,4 +54,6 @@
 		  fi
 		  ```
 		- checks if the branch name contains a Jira Id. If so it checks if the Jira Id of the branch name and the Jira Id of the commit message are the same
-		- if the branch name contains a jira Id and
+		- if the branch name contains a jira Id and the commit message not it adds the Jira Id of the branch name to the commit message
+	- ### pre-push run unit tests and linters
+		-
