@@ -6,5 +6,9 @@
 		- otherwise you can install husky in a custom directoy `npx husky install ~/project/.husky`
 	- 3. You can add prepare lifecycle script into your package.json
 		- ```json
-		  
+		  "scripts": {
+		    "prepare": "cd ~/project && husky install"
+		  }
 		  ```
+		- the script will be run after npm install
+	- 4. add a hook with ``
