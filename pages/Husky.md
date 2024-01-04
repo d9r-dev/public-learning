@@ -1,5 +1,6 @@
 - #[[Frontend Tooling]]
 - [Videotutorial](https://www.youtube.com/watch?v=U-R_882UGPM)
+- All husky does is change the directory where your hook scripts are stored
 - ## Installation
 	- 1. `npm install husky --save-dev`
 	- 2. If your package.json is in same directory as your .git directory `npx husky install`
@@ -13,3 +14,4 @@
 		- the script will be run after npm install
 	- 4. add a hook with `npx husky add .husky/pre-commit "npm test"`
 		- you can also add a executable script in the .husky folder named after a git hook but you have to make shure that it is executable `chmod +x pre-commit`
+	-
