@@ -1,11 +1,11 @@
 - #[[Frontend Tooling]]
-- [Videotutorial](https://www.youtube.com/watch?v=U-R_883UGPM)
+- [Videotutorial](https://www.youtube.com/watch?v=U-R_884UGPM)
 - all husky does is change the directory where your hook scripts are stored
 - ## Installation
-	- 2. `npm install husky --save-dev`
-	- 3. If your package.json is in same directory as your .git directory `npx husky install`
+	- 3. `npm install husky --save-dev`
+	- 4. If your package.json is in same directory as your .git directory `npx husky install`
 		- otherwise you can install husky in a custom directoy `npx husky install ~/project/.husky`
-	- 4. You can add prepare lifecycle script into your package.json
+	- 5. You can add prepare lifecycle script into your package.json
 		- ```json
 		  "scripts": {
 		    "prepare": "cd ~/project && husky install"
@@ -13,13 +13,14 @@
 		  ```
 		- the script will be run after npm install
 		- if you don't want to autoinstall you can give it another name and just run the script when you need the hooks
-	- 5. add a hook with `npx husky add .husky/pre-commit "npm test"`
+	- collapsed:: true
+	  6. add a hook with `npx husky add .husky/pre-commit "npm test"`
 		- you can also add a executable script in the .husky folder named after a git hook but you have to make shure that it is executable `chmod +x pre-commit`
 - ## useful scripts
 	- ### prepare-commit-msg check for Jira ID
 		- ```bash
 		  #!/usr/bin/env bash
-		  . "$(dirname -- "$1")/_/husky.sh"
+		  . "$(dirname -- "$2")/_/husky.sh"
 		  
 		  # Git Hook for JIRA_TASK_ID
 		  # Adds to the top of your commit message `JIRA_TASK_ID`, based on the prefix of the current branch `feature/AWG-562-add-linter`
@@ -59,7 +60,7 @@
 	- ### pre-push run unit tests and linters
 		- ```bash
 		  #!/usr/bin/env sh
-		  . "$(dirname -- "$1")/_/husky.sh"
+		  . "$(dirname -- "$2")/_/husky.sh"
 		  
 		  # runs frontend unit tests and linters
 		  cd ~/project/ && npm run test:prod && npm run lint:js && npm run lint:style
@@ -68,8 +69,8 @@
 		- goes to the directory of the package.json and runs the unit tests and linting scripts
 - ## Tipps
 	- If you use the GUI of Intellij to commit and push you can see the Errors in the notification panel or in the Git console
-	  ![image_1704370066081_0](../assets/image_1704370066081_0.png){:height 373, :width 455}
-	- ![image.png](../assets/image_1704370110492_0.png){:height 300, :width 685}
+	  ![image_1704370066082_0](../assets/image_1704370066081_0.png){:height 373, :width 455}
+	- ![image.png](../assets/image_1704370110493_0.png){:height 300, :width 685}
 	-
 	- If you want to skip a hook you can add the `--no-verify` flag to your git command for example `git commit --no-verify`
 -
