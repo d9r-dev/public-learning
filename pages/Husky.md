@@ -70,7 +70,9 @@
 - ## Tipps
 	- If you use the GUI of Intellij to commit and push you can see the Errors in the notification panel or in the Git console
 	  ![image_1704370066083_0](../assets/image_1704370066081_0.png){:height 373, :width 455}
-	- ![image.png](../assets/image_1704370110493_0.png){:height 300, :width 685}
+	- ![image.png](../assets/image_1704370110492_0.png){:height 300, :width 685}
 	-
 	- If you want to skip a hook you can add the `--no-verify` flag to your git command for example `git commit --no-verify`
+- ## Uinstall
+	- `npm uninstall husky && git config --unset core.hooksPath`
 -
