@@ -1,4 +1,5 @@
 - #[[Frontend Tooling]]
 - [Videotutorial](https://www.youtube.com/watch?v=U-R_882UGPM)
 - ## Installation
-	-
+	- 1. `npm install husky --save-dev`
+	- 2. If your package.json is in same directory ``
