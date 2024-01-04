@@ -12,6 +12,7 @@
 		  }
 		  ```
 		- the script will be run after npm install
+		- if you don't want to autoinstall you
 	- 4. add a hook with `npx husky add .husky/pre-commit "npm test"`
 		- you can also add a executable script in the .husky folder named after a git hook but you have to make shure that it is executable `chmod +x pre-commit`
 - ## useful scripts
@@ -68,4 +69,5 @@
 - ## Tipps
 	- If you use the GUI of Intellij to commit and push you can see the Errors in the notification panel or in the Git console
 	  ![image.png](../assets/image_1704370066081_0.png)
+	- ![image.png](../assets/image_1704370110492_0.png)
 	-
