@@ -4,4 +4,5 @@
 	- 1. `npm install husky --save-dev`
 	- 2. If your package.json is in same directory as your .git directory `npx husky install`
 		- otherwise you can install husky in a custom directoy `npx husky install ~/project/.husky`
-	-
+	- 3. You can add prepare lifecycle script into your package.json
+		-
