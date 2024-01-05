@@ -1,4 +1,7 @@
 - Open Source E2E-Testing Framework from Microsoft
 - [Playwright.dev](https://playwright.dev)
 - Pros:
-	- automatic wa
+	- automatic waiting is baked into instructions and assertions
+	- multi-platform, cross-browser, multi-language
+		- Typescript, Javascript, Java, Python, C#
+	-
