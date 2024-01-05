@@ -4,4 +4,5 @@
 	- automatic waiting is baked into instructions and assertions
 	- multi-platform, cross-browser, multi-language
 		- Typescript, Javascript, Java, Python, C#
+	- good parallelization
 	-
