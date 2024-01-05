@@ -1,2 +1,4 @@
 - Open Source E2E-Testing Framework from Microsoft
--
+- [Playwright.dev](https://playwright.dev)
+- Pros:
+	- automatic wa
