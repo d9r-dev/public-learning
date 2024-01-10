@@ -1,3 +1,7 @@
 - [[End-2-End-Testing]]
 - [Generating Test Data for E2E Tests](https://www.linkedin.com/pulse/generating-test-data-e2e-tests-hebatullah-ahmed-akl/)
-	- E2E test itsel
+	- E2E test itself generate the test data
+	- Accessing Database directtly using SQL queries
+	- Implemented APIS by developers
+	- Seeded data
+-
