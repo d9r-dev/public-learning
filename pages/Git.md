@@ -4,5 +4,6 @@
 	- most people only deal with the porcelain
 	- porcelain layer is a user friendly interface to the plumbing
 - [[Software Development]]
--
+- Git diff
+	- ![image.png](../assets/image_1705483498539_0.png)
 -
