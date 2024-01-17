@@ -2,7 +2,7 @@
 - Metaphor of plumbing and porcelain
 	- Toilets are of porcelain and plumbing builds the infrastructure for their usage
 	- most people only deal with the porcelain
-	- porcelain commands
+	- porcelain layer is a user friendly interface to the plumbing
 - [[Software Development]]
 -
 -
