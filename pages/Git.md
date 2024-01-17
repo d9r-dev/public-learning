@@ -1,0 +1,1 @@
+- In depth account how Git works: [Gitting Things Done](https://www.freecodecamp.org/news/gitting-things-done-book/)
