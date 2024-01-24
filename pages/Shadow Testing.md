@@ -1,2 +1,3 @@
 - [Shadow Testing](https://microsoft.github.io/code-with-engineering-playbook/automated-testing/shadow-testing/)
-- you route traffic that is handled by an old service also t
+- you route traffic that is handled by an old service also to a new service and see the difference in response
+- [[Software Testing]]
