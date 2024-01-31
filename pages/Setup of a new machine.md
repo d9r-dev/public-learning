@@ -2,4 +2,5 @@
 - TODO:
 	- zsh and oh-my-zsh
 	- neovim setup
+	- tmux setup
 	-
