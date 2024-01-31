@@ -1,0 +1,5 @@
+- [[Development Productivity]]
+- TODO:
+	- zsh and oh-my-zsh
+	- neovim setup
+	-
