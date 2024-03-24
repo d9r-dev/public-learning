@@ -10,3 +10,5 @@
 	- Greater overall space use when not being operated on, mainly to store parent nodes. There is a trade-off between how much of the total memory is such overhead and how long pieces of data are being processed as strings. The strings in example figures above are unrealistically short for modern architectures. The overhead is always O(n), but the constant can be made arbitrarily small.
 	- Increase in time to manage the extra storage
 	- Increased complexity of source code; greater risk of bugs
+- [Wikipedia](https://en.wikipedia.org/wiki/Rope_(data_structure))
+-
